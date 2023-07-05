@@ -1,0 +1,58 @@
+.book-icon {
+    position: absolute;
+    color: #fff;
+    top: .1rem;
+    font-size: 1.1rem;
+    right: 2rem;
+    border-left: 1px #fff solid;
+    padding-left: .7rem;
+    padding-bottom: .2rem;
+}
+
+.products {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    top: .5rem;
+    left: 1rem;
+    width: 95%;
+    height: 2rem;
+    overflow-x: hidden;
+}
+
+.search-bar::placeholder {
+    color: #fff;
+}
+
+.search-icon {
+    position: absolute;
+    color: #fff;
+    padding-left: .5rem;
+    padding-top: .2rem;
+}
+
+
+.search-bar {
+    width: 94.5%;
+    padding-left: 2rem;
+    background-color: black;
+    border: #fff 1px solid;
+}
+
+.drop-list {
+    padding-top: 3rem;
+}
+
+.drop-text {
+    background-color: #1F1E1E;
+    padding: 1rem;
+}
+
+.view-shop {
+    display: flex;
+}

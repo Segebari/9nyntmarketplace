@@ -1,0 +1,210 @@
+.about-store--main {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.about-store--top {
+   text-align: right;
+}
+
+/* .about--container {
+   
+} */
+
+
+
+.store--banner {
+    position: relative;
+    top: -2.45rem;
+    left: -1rem;
+    z-index: -3;
+    width: 100vw;
+    height: 108px;   
+}
+
+.store-container {
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -6.5rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.store-logo-name {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.copy-icon {
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.flex-item {
+    flex: 0 1 auto;
+}
+
+.store-logo {
+    margin-right: 1rem;
+}
+
+.store-name {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: bolder;
+}
+
+.store--id {
+    font-size: smaller;
+}
+
+.store-details {
+    display: flex;
+    color: black;
+    font-size: small;
+    justify-content: space-between;
+    padding: 1rem .3rem;
+}
+
+
+.view-shop {
+    width: 100%;
+    border-radius: 10px;
+    padding: .5rem;
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: #000 1px solid;
+}
+
+.follow-message {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.follow-btn {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: #000 1px solid;
+    padding: .5rem;
+}
+
+.message-btn {
+    display: flex;
+    gap: .3rem;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #fff;
+    border: #000 1px solid;
+    align-items: center;
+}
+
+.review-about {
+    display: flex;
+    position: relative;
+    top: -4rem;
+    gap: 1rem;
+    font-size: smaller;
+    padding-bottom: .5rem;
+    border-bottom: #fff 1px solid;
+}
+
+
+
+.ratings--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.rating-subtext {
+    font-size: x-small;
+}
+
+.rate-store {
+    text-align: left;
+}
+
+
+.rate-no {
+    font-size: 3rem;
+}
+
+.total-rates {
+    font-size: x-small;
+}
+
+.rate {
+    text-align: right;
+}
+
+.rate-stars {
+    position: relative;
+    top: -1rem;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.stars-date {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-top: .5rem;
+}
+
+.review-date {
+    font-size: smaller;
+}
+
+.review-comment {
+    margin-top: .5rem;
+    font-size: x-small;
+}
+
+.rating-comment--container {
+    margin-top: 2rem;
+}
+
+
+.write-comment--container {
+    margin-top: 3rem;
+    border: #fff 1px solid;
+    padding: 1.5rem;
+}
+
+
+.input--comment input {
+    padding-top: 2rem;
+    width: 100%;
+    background-color: #000;
+    border: none;
+    border-bottom: #fff 1px solid;
+}
+
+.btn-right {
+
+   text-align: right;
+
+}
+
+.comment--submit {
+    background-color: #000;
+    color: #fff;
+    border: #fff 1px solid;
+    padding: .5rem 1rem;
+}

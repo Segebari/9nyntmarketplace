@@ -1,0 +1,120 @@
+.showcase-main {
+   min-height: 100vh;
+   padding: 1rem;
+   background-color: #fff;
+}
+
+.showcase-top {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.header-title {
+    color: black;
+}
+
+.header-subtext {
+    color: #b7b7b7;
+}
+
+
+/* carousel */
+
+.carousel {
+    position: relative;
+    width: 360px; /* Adjust the width as needed */
+    height: 320px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    width: 300%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-images img {
+    width: 33.33%;
+    object-fit: cover;
+  }
+  
+  .carousel-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-pagination label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-pagination label:hover {
+    background-color: #555;
+  }
+  
+  .carousel-pagination input[type="radio"] {
+    display: none;
+  }
+  
+  .carousel-pagination input[type="radio"]:checked + label {
+    background-color: #fff;
+  }
+
+.products--container {
+  width: auto;
+  overflow-x: scroll !important;
+  white-space: nowrap;
+}
+
+.products--sub-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.products--sub-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    width: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 2rem;
+    
+}
+
+
+  .product--showcase {
+    flex: 0 0 auto;
+    box-shadow: 0px 0px 13px -8px rgba(0,0,0,1);
+    border-radius: 10px;
+    height: 8rem;
+    width: 8rem;
+    background-image: url(/assets/img/iphone-store-main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  .about-store {
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+  }

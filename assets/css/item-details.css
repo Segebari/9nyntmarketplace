@@ -1,0 +1,185 @@
+.container-item1 {
+    height: auto;
+}
+
+
+.products-img {
+    left: 0;
+}
+
+.items-share {
+    position: absolute;
+    display: flex;
+    padding-right: 1rem;
+    right: 0;
+}
+
+.like-icon {
+    padding: .3rem .5rem;
+    border: solid 1px white;
+}
+
+.share-icon {
+    margin-left: .5rem;
+    padding: .3rem .5rem;
+    border: solid 1px white;
+}
+
+.container-item1 {
+    padding: 2rem;
+    
+}
+
+.products-itemi {
+    margin-top: 2rem;
+    width: 100%;
+    
+}
+
+.products-img {
+    min-height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products-price {
+    font-weight: normal;
+}
+
+.products-subtext {
+    padding-top: 1rem;
+    color: #505050;
+    font-size: var(--small-font-size);
+}
+.products-details {
+    font-weight: var(--font-semi-bold);
+    font-size: var(--small-font-size);
+    color: #7600BC;
+}
+
+.soldby {
+    color: #787A80;
+}
+
+.bag-icon {
+    position: relative;
+    top: 0.15rem;
+}
+
+/* stars */
+
+.rating {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    position: relative;
+    top: 1rem;
+}
+  
+  .star {
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .star.active {
+    color: #ffc107;
+  }
+  
+  .star:hover {
+    color: #ffc107;
+  }
+
+  .rating-no {
+    position: relative;
+    color: #ffc107;
+    padding-left: .5rem;
+    top: -.18rem;
+  }
+
+.cir {
+    padding-top: .4rem;
+    font-size: .4rem;
+    padding-left: .5rem;
+}
+
+.comment {
+    color: #fff;
+}
+
+.message-icon {
+    position: relative;
+    top: -1.36rem;
+    padding-left: .5rem;
+}
+
+.review-no {
+    position: relative;
+    top: -.18rem;
+    padding-left: .5rem;
+    color: #787A80;
+}
+
+.cir2 {
+    padding-top: .45rem;
+    font-size: .4rem;
+    padding-left: .5rem;
+}
+
+.sold {
+    position: relative;
+    top: -1rem;
+}
+
+.sold-no {
+    position: relative;
+    top: -.06rem;
+    padding-left: .5rem;
+    color: #787A80;
+}
+
+.user-details {
+    display: flex;
+}
+
+.select-btn {
+    margin-top: 1rem;
+    width: 100%;
+    padding: .6rem;
+    font-weight: 800;
+    font-size: var(--normal-font-size);
+}
+
+.view-btn {
+    background-color: black;
+    border: white 1px solid;
+    color: #fff;
+    margin-top: 1rem;
+    width: 100%;
+    padding: .6rem;
+    font-weight: 600;
+    font-size: var(--normal-font-size);
+}
+
+.read-review {
+    position: relative;
+    top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-items {
+    position: relative;
+    top: 2rem;
+}
+
+.related-products{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.related-img {
+    min-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}

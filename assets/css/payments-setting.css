@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.payment-header {
+    margin-top: .5rem;
+}
+
+.payment-setting--main {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.pay-settings-container {
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.setting-subtext {
+    font-size: smaller;
+    margin-top: .5rem;
+    color: #8E8E8E;
+}
+
+.pay-setttings--options {
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.btn-div {
+    text-align: right;
+}
+
+.set-up {
+    background-color: #000;
+    color: #fff;
+    border: #fff 1px solid;
+    padding: .5rem;
+}
+
+.flex-space {
+    gap: 1rem;
+}
+
+.profile-icons {
+    padding-left: 0;
+}

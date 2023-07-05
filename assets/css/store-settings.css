@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.store-link-settings {
+    margin-top: 1rem;
+    justify-content: space-around;
+    padding: .3rem;
+    border: 1px solid #fff;
+}
+
+.details {
+    font-size: x-small;
+}
+
+.store-link-title {
+     
+    color: #8E8E8E;
+
+}
+
+.store-settings--main {
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.space {
+    margin-top: 5rem;
+}

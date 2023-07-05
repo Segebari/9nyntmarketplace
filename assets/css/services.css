@@ -1,0 +1,51 @@
+.clear {
+    margin-bottom: 2rem;
+}
+
+.sub-text {
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    letter-spacing: 0.09rem;
+}
+
+.freelance {
+    padding: 0rem 1rem;
+}
+
+.freelancer {
+    display: flex;
+    border: solid white 1px;
+    padding: .5rem;
+    column-gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.freelancer img {
+    width: 36px;
+    height: 36px;
+}
+
+.freelancer-details {
+    display: flex;
+    column-gap: .5rem;
+}
+
+.freelancer-location {
+    display: flex;
+}
+
+.freelancer-img {
+    border: solid white 1px;
+}
+
+.freelance-load {
+    display: flex;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    padding: .5rem .7rem;
+    margin-bottom: 2rem;
+}

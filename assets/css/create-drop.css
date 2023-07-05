@@ -1,0 +1,132 @@
+.create-drop {
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.drop-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+#description {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 7rem;
+    background-color: black;
+    border: white solid 1px;
+}
+
+#description::placeholder {
+    position: relative;
+    font-size: normal;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+    color: #8E8E8E;
+}
+
+#releasedate {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+    border: white solid 1px;
+}
+
+#releasedate::placeholder {
+    position: relative;
+    font-size: normal;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+    color: #8E8E8E;
+}
+
+
+#storelink {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+    border: white solid 1px;
+}
+
+#storelink::placeholder {
+    position: relative;
+    font-size: normal;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+    color: #8E8E8E;
+}
+/* image upload */
+
+
+    .upload-container {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .upload-wrapper {
+      border: 2px dashed #fff;
+      padding: 20px;
+      background-color: black;
+      transition: border-color 0.3s ease;
+    }
+
+    .upload-wrapper:hover {
+      border-color: #999;
+    }
+
+    .upload-icon {
+      font-size: 60px;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .upload-text {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .upload-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 14px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .upload-button:hover {
+      background-color: #45a049;
+    }
+
+    .ratio-btn {
+        width: 65%;
+        background-color: black;
+        color: white;
+        border: white solid 1px;
+        padding: .5rem 1rem;
+    }
+
+    .push-btn {
+        width: 30%;
+        background-color: black;
+        color: white;
+        border: white solid 1px;
+        padding: .5rem 1rem;
+    }
+
+    .drop-btns {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }

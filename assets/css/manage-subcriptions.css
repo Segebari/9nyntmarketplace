@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.subscription-main {
+    height: auto;
+    padding: 1.3rem;
+    padding-bottom: 7rem;
+}
+
+.store-header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.store-header p {
+    margin-top: .5rem;
+    font-size: small;
+}
+
+.price--container {
+    color: black;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 9px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.sub-time {
+    color:  #979191;
+}
+
+.sub-amount {
+    font-weight: 800;
+    color: #301448;
+}
+
+.check {
+    color: #14181F;
+}
+
+.flex p {
+    font-size: small;
+}
+
+
+.price--container h2 {
+    padding-top: 1.5rem;
+    color: #1E30D3 !important;
+}

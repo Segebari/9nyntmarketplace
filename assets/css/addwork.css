@@ -1,0 +1,62 @@
+.addwork--main {
+    height: 100%;
+    padding: 1rem;
+}
+
+.addwork--header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.addwork--header__subtext {
+    text-align: center;
+    font-size: small;
+    padding: 0 2rem;
+}
+
+.addwork--cover__text {
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.addwork--cover__img {
+    width: 100%;
+    background-color: black;
+    border: 1px solid #fff;
+    height: 2rem;
+}
+
+.addwork--input{
+    margin: 1rem 0;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 2rem;
+}
+
+.addwork--input::placeholder {
+    color: #fff;
+    padding-left: .5rem;
+}
+
+.addwork-buttons {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.addwork--preview {
+    background-color: black;
+    color: white;
+    padding: 1rem .5rem;
+    border: none;
+}
+
+.addwork--publish {
+    background-color: black;
+    color: white;
+    padding: .8rem .5rem;
+    border: #fff 1px solid;
+}

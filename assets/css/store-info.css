@@ -1,0 +1,27 @@
+.main {
+    padding: 1rem !important;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.store-header {
+    margin: 1rem 0;
+}
+
+.profile-icons {
+    padding-left: 0;
+}
+
+ 
+
+
+.info-sections {
+    border: 1px solid #fff;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}

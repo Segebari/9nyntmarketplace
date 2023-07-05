@@ -1,0 +1,178 @@
+.main__myportfolio {
+    min-height: 100vh !important;
+}
+
+.portfolio--container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio--img {
+    position: relative;
+    top: -3rem;
+}
+
+/* .portfolio--border {
+    border: solid #fff 1px;
+    border-radius: 50%;
+} */
+
+
+.myportfolio {
+    padding: 0 1rem;
+}
+
+.portfolio--name {
+    text-align: center;
+}
+
+.portfolio--container__text {
+    text-align: center;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.portfolio-address-icon {
+    font-size: medium;
+}
+
+/* .user--address__container {
+    display: flex;
+    align-items: center;
+} */
+
+
+.myportfolio--tabs__container {
+    border: solid #fff 1px;
+}
+
+.myportfolio--tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.myportfolio--sections {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.myportfolio--sections h3 {
+    padding-right: 2rem;
+}
+
+.myportfolio--info {
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.myportfolio--info h4 {
+    padding: 1rem 0;
+}
+
+.myportfolio--info-details {
+    font-size: smaller;
+}
+
+.myportfolio--info-details ul {
+    list-style-type: disc; /* Style of the bullet point, can be 'disc', 'circle', or 'square' */
+    padding-left: 20px; /* Adjust the indentation of the bullet points */
+}
+
+.myportfolio--button {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myportfolio--button button {
+    padding: .5rem .8rem;
+    border: solid #fff 1px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Work  */
+
+/* .myportfolio--work {
+    display: none;
+} */
+
+
+.myportfolio--work__container img {
+    width: 100%;
+    height: 176px !important;
+    object-fit: cover;
+    margin-top: 1rem;
+    border: solid #fff 1px;
+    padding: 0.4rem;
+}
+
+.myportfolio--work__header {
+    position: relative;
+    top: -2rem;
+    font-size: small;
+    padding-left: .6rem;
+}
+
+.myportfolio--work__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-profile-img {
+    display: flex;
+    align-items: center;
+
+}
+
+.small-profile-img p {
+    padding-left: .5rem;
+}
+
+.small-profile-img img{
+    background-image: url(/assets/img/profile-img-xx-small.svg);
+    width: 14px !important;
+    height: 13px !important;
+    margin-top: 0 !important;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.like-tab {
+    display: flex;
+}
+
+.like-tab p {
+    padding-left: .3rem;
+}
+
+.like-view {
+    display: flex;
+}
+
+.view-tab {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.view-tab p {
+    padding-left: .3rem;
+}
+
+.myportfolio--review__more {
+    display: flex;
+    justify-content: right;
+    font-size: smaller;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.myportfolio--review {
+    display: none;
+}
+

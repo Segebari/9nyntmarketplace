@@ -1,0 +1,114 @@
+.store-start-main {
+    height: auto;
+    padding: 1.3rem;
+    padding-bottom: 7rem;
+}
+
+.start--container {
+    margin-top: 2rem;
+    height: auto;
+    border: 1px solid #fff;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.start--sub-container p {
+    color: #5C5C5C;
+    font-size: small;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.circular-checkbox {
+    display: none; /* Hide the default checkbox */
+  }
+  
+  .circular-label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .circular-label:before {
+    content: "";
+    position: absolute;
+    left: .3rem;
+    top: .3rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .circular-checkbox:checked + .circular-label:before {
+    background-color: #fff; /* Change the background to white when checked */
+  }
+
+  .checkbox-text {
+    font-size: small;
+  }
+
+
+
+
+/* checkbox2 */
+
+
+  .circular-checkbox2 {
+    display: none; /* Hide the default checkbox */
+  }
+  
+  .circular-label2 {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .circular-label2:before {
+    content: "";
+    position: absolute;
+    left: .3rem;
+    top: .3rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    z-index: 10;
+  }
+  
+  .circular-checkbox2:checked + .circular-label2:before {
+    background-color: #fff; /* Change the background to white when checked */
+  }
+
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+  
+  
+  
+
+
+
+#country-select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+#country-select option {
+  padding: 8px;
+}
+
+  
+  
+  

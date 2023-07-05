@@ -1,0 +1,73 @@
+main {
+    height: auto !important;
+}
+
+.inbox-container {
+    border: solid 1px white;
+    padding: 1rem;
+    height: 100vh;
+    margin-bottom: 3rem;
+}
+
+.inbox img {
+    width: 35px;
+    height: 35px;
+    margin-right: .5rem;
+    margin-left: .3rem;
+}
+
+.messenger-id {
+    font-size: large;
+}
+
+.inbox {
+    display: flex;
+    border: solid 1px white;
+    padding: .5rem;
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+
+.bottom-item {
+    display: flex;
+    align-items: center;
+    margin-top: auto !important;
+    margin-left: .5rem;
+}
+
+.inbox-time-bullet {
+    background-color: #A4A4B2;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+.inbox-time {
+    color: #A4A4B2;
+    font-size: x-small;
+}
+
+.inbox-text {
+    font-size: small;
+}
+
+.inbox-no-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.inbox-no-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.inbox-no {
+    font-size: small;
+    margin-left: .5rem;
+    border: solid white 1px;
+    padding: .2rem .75rem;
+}
