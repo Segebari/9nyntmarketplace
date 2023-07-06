@@ -1,0 +1,143 @@
+.main {
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icons {
+    padding-left: 0;
+}
+
+.store-order--header {
+    margin: .5rem 0;
+}
+
+.orders-data--container {
+    border: 1px solid #fff;
+    padding: 1rem;
+    
+}
+
+.data-img {
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    padding: .4rem;
+    margin-right: .5rem;
+}
+
+.data-wrap {
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.data-subtext {
+    color: #8E8E8E;
+    font-weight: bold;
+}
+
+.all-orders--header {
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.search--icon {
+    position: relative;
+    left: -1.5rem;
+}
+
+.search-input {
+    padding: 0.3rem;
+    background-color: black;
+    border: none;
+}
+
+.order-status--container {
+    margin-top: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    gap: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #fff;
+    justify-content: space-between;
+}
+
+.order {
+    margin-top: 1.5rem;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+
+.order-status--container p {
+    font-size: smaller;
+    color: #B0B0B0;
+}
+
+
+.item--contianer img {
+    padding: .13rem;
+   
+}
+
+.item--contianer  {
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.items-wrap {
+    padding-right: 1rem;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #fff;
+    margin-bottom: 1rem; */
+}
+
+.delivered {
+    background-color: #FDF414;
+    color: black;
+    font-weight: bolder;
+    padding: .14rem .58rem;
+}
+
+.line {
+    border-bottom: #fff solid 1px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.product-status--container {
+    justify-content: space-between;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+.product-status {
+    gap: .5rem;
+}
+
+.bullet {
+    background-color: #8E8E8E;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+
+.total-orders {
+    justify-content: space-between;
+    margin-top: 2rem;
+}
