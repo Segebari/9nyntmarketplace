@@ -217,29 +217,7 @@ img {
     text-transform: uppercase;
 }
 
-.search {
-    position: relative;
-    display: flex;
-    top: .5rem;
-    left: 1rem;
-    width: 95%;
-    height: 2rem;
-    overflow-x: hidden;
-}
 
-.search-icon {
-    position: absolute;
-    color: black;
-    padding-left: .5rem;
-    padding-top: .2rem;
-}
-
-
-.search-bar {
-    width: 94.5%;
-    padding-left: 2rem;
-    border: black;
-}
 
 .listings {
     margin-left: 1rem;
