@@ -32,14 +32,15 @@
     background-color: transparent;
     border: none;
     border-bottom: #fff 1px solid;
-    padding-bottom: .2rem !;
+    padding-bottom: .2rem;
     font-size: small;
 }
 
 .jobs-btn {
-    color: #fff;
+    color: #8E8E8E;
     background-color: transparent;
     border: none;
+    padding-bottom: .2rem;
     font-size: small;
 }
 
