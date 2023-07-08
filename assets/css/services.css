@@ -91,7 +91,7 @@
 }
 
 .search-bar:focus {
-    outline: 1px solid #fff;
+    outline: none;
 }
 
 
@@ -188,7 +188,30 @@
     display: none;
 }
 
+.jobs-section {
+    position: relative;
+    top: -1.8rem;
+    gap: .5rem;
+}
 
+.profession-wrap {
+    gap: 1rem;
+}
+
+
+.freelance-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: large;
+}
+
+.fulltime-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: large;
+}
 
 
 
