@@ -14,15 +14,17 @@
 
 .search-wrap {
     position: relative;
-    top: -1.5rem;
+    
 }
 
 .btn-wrap {
-    position: relative;
-    top: 3.3rem;
-    left: 1rem;
-    gap: .9rem;
-    
+    position: absolute !important;
+    top: .8rem !important;
+    left: 1rem !important;
+    gap: .9rem !important;
+    z-index: 10 !important;
+    width: 22% !important;
+    display: block;
 }
 
 .hire-btn {
@@ -30,7 +32,7 @@
     background-color: transparent;
     border: none;
     border-bottom: #fff 1px solid;
-    padding-bottom: .2rem;
+    padding-bottom: .2rem !;
     font-size: small;
 }
 
@@ -77,6 +79,7 @@
     background-color: transparent;
     position: relative;
     right: -3rem;
+    color: #fff;
     
 }
 
@@ -86,14 +89,22 @@
     padding-left: 3rem;
 }
 
+.search-bar:focus {
+    outline: 1px solid #fff;
+}
 
 
 .results-no {
+    display: block;
     position: relative;
     color: #8E8E8E;
-    top: inherit;
+    top: -1.8rem;
 }
 
+
+.porfolio-section {
+    display: block;
+}
 
 .portfolio-container {
     position: relative;
@@ -168,6 +179,12 @@
     border-radius: 50%;
     border: 7px solid black;
 
+}
+
+
+
+.jobs-section {
+    display: none;
 }
 
 
