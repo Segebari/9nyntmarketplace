@@ -10,6 +10,7 @@
 
 .flex {
     display: flex;
+    align-items: center;
 }
 
 .search-wrap {
@@ -195,6 +196,7 @@
 }
 
 .profession-wrap {
+    margin-top: 3.5rem;
     gap: 1rem;
 }
 
@@ -203,15 +205,37 @@
     background-color: black;
     color: #fff;
     border: none;
-    font-size: large;
+    padding-bottom: 0.2rem;
+    border-bottom: #fff 1px solid;
+    /* font-size: small; */
 }
 
 .fulltime-btn {
+    color: #8E8E8E;
     background-color: black;
     color: #fff;
     border: none;
-    font-size: large;
+    /* font-size: small; */
 }
 
+.result__no--small {
+    font-size: small;
+    color: #8E8E8E;
+}
+
+
+.result__text--small {
+    font-size: small;
+    color: #8E8E8E;
+}
+
+.result-wrap {
+    padding-top: .4rem;
+}
+
+.job-post--container {
+    padding: 1rem;
+    border: #fff 1px solid;
+}
 
 
