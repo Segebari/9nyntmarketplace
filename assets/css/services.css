@@ -303,3 +303,8 @@ padding: .5rem !important;
     top: 1rem;
     right: .5rem;
 }
+
+.job-post--img  {
+    position: relative;
+    margin-top: .5rem;
+}
