@@ -234,8 +234,73 @@
 }
 
 .job-post--container {
-    padding: 1rem;
+    margin-top: 1.5rem;
+    padding: .5rem;
     border: #fff 1px solid;
 }
 
 
+
+.job-post--wrap {
+    position: relative;
+    background-color: #fff;
+    padding: .5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.company-name {
+    color: #000;
+    font-size: large;
+}
+
+
+.job-role {
+    font-size: smaller;
+}
+
+
+.job-location {
+    font-size: smaller;
+}
+
+
+.profile-icons--black {
+    color: #000;
+}
+
+.job-subtext {
+    padding-top: .5rem;
+    font-size: .65rem;
+}
+
+
+.address-icon {
+    font-size: .9rem;
+    padding-left: 0.5rem !important;
+    padding-right: 0.1rem !important;
+}
+
+
+.icon-size--small {
+    font-size: 1rem !important;
+}
+
+
+.flex-item {
+    padding: 0 !important;
+    flex-grow: 0; /* Default value, takes up space as required by content */
+    flex-basis: auto; /* Default value, calculates based on content */
+}
+
+.flex-item-expanded {
+flex-grow: 1; /* Takes up remaining available space */
+padding: .5rem !important;
+}
+
+.like-freelancer--wrap {
+    gap: .5rem !important;
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+}
