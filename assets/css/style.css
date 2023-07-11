@@ -150,6 +150,10 @@ img {
     left: 3rem;
 }
 
+.nav-icon--size {
+    font-size: large;
+}
+
 
 .close-menu {
     z-index: 1000;
