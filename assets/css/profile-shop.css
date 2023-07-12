@@ -9,3 +9,7 @@ main {
 .profile-icons {
     padding-left: 0;
 }
+
+.profile-header {
+    align-items: center;
+}
