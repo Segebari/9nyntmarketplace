@@ -5,3 +5,7 @@
 main {
     height: 100vh !important;
 }
+
+.profile-icons {
+    padding-left: 0;
+}
