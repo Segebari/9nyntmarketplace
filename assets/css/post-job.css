@@ -26,4 +26,76 @@
 .post-job--wrap {
     min-height: 100vh;
     background-color: #fff;
+    padding: 1rem;
+}
+
+.black-text {
+    color: #000;
+}
+
+.q-wrap {
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.q-text {
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+/* .q-no {
+    
+} */
+
+
+/* checkboxes  */
+
+.q-check-boxes {
+    gap: 1rem;
+    margin: 1rem 0;
+    margin-left: 1.5rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+  }
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    outline: none;
+    margin-right: 5px;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: #000;
+  }
+
+  label {
+    font-size: small;
+    color: black;
+  }
+
+.company-wrap {
+    margin-left: 1.5rem;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+}
+
+.company-name-input {
+    padding: .3rem;
+}
+
+.com-web-input {
+    margin-top: .5rem;
+    padding: .3rem;
 }
