@@ -1,0 +1,29 @@
+.main {
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icons {
+    padding-left: 0;
+}
+
+.post-job-top  {
+    margin-bottom: 2rem;
+}
+
+
+.container {
+    border: #fff solid 1px;
+    min-height: 100vh;
+    padding: .5rem;
+}
+
+
+.post-job--wrap {
+    min-height: 100vh;
+    background-color: #fff;
+}
