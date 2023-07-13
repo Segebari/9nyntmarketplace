@@ -308,3 +308,12 @@ padding: .5rem !important;
     position: relative;
     margin-top: .5rem;
 }
+
+
+/* post job icon */
+
+.icon-job {
+    position: absolute;
+    right: 0;
+    display: none;
+}

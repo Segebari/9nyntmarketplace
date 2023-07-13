@@ -19,6 +19,8 @@ const jobsButton = document.getElementById("jobs-btn");
 const portfolioDisplay = document.getElementById("porfolio-section");
 const jobsDisplay = document.getElementById("jobs-section");
 const resultsnoDisplay = document.getElementById("results-no");
+const jobsiconDisplay = document.getElementById("icon-job");
+const searchiconPadding = document.getElementById("search-icon");
 
 jobsButton.addEventListener("click", function(event) {
     jobsDisplay.style.display = "block"; // Adjust the display property as needed
@@ -28,7 +30,8 @@ jobsButton.addEventListener("click", function(event) {
     resultsnoDisplay.style.display = "none"; // Adjust the display property as needed
     hireButton.style.borderBottom = "none"; // Adjust the border
     jobsButton.style.borderBottom = "1px solid #fff"; // Adjust the border
-
+    jobsiconDisplay.style.display = "block"; // Display post jobs icon
+    searchiconPadding.style.paddingRight = "2.5rem" // Adjust search icon
 })
 
 hireButton.addEventListener("click", function(event) {
@@ -39,5 +42,7 @@ hireButton.addEventListener("click", function(event) {
     resultsnoDisplay.style.display = "block"; // Adjust the display property as needed
     hireButton.style.borderBottom = "1px solid #fff"; // Adjust the border
     jobsButton.style.borderBottom = "none"; // Adjust the border
+    jobsiconDisplay.style.display = "none"; // Display none
+    searchiconPadding.style.paddingRight = "1rem" // Adjust search icon
 })
 
