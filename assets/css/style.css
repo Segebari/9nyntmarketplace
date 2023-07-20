@@ -81,9 +81,9 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     /* overflow-x: hidden; */
-    background-image: url(/assets/img/bg-body.svg);
+    /* background-image: url(/assets/img/bg-body.svg);
     background-position: center center;
-    background-size: contain;
+    background-size: contain; */
 }
 
 h1, h2, h3, h4 {
@@ -98,9 +98,6 @@ main {
 }
 
 
-@media screen() {
-    
-}
 
 ul {
     list-style: none;
@@ -380,7 +377,7 @@ img {
 
 .product-detail p {
     font-size: x-small;
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .product-detail a {
