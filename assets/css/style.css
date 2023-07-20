@@ -348,7 +348,7 @@ img {
     padding: 1px;
     box-sizing: border-box; */
     box-sizing: border-box;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     padding-bottom: 1rem;
 }
