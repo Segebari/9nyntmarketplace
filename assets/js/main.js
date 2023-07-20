@@ -22,3 +22,7 @@ if(navClose){
         event.stopPropagation(); // Stop the click event from propagating to document
     })
 }
+
+
+
+// /*==================== SEARCH ICON TOGGLE ====================*/

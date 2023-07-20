@@ -242,7 +242,7 @@ img {
     font-size: x-small !important;
 }
 
-.search {
+.search--index  {
     margin-top: 1rem;
     display: grid;
     place-items: center;
@@ -250,23 +250,24 @@ img {
     padding: 0 1rem;
 }
 
-.search-icon {
+.search-icon--index {
     left: 1.5rem;
     color: #fff;
     position: absolute;
     
 }
 
-.search-bar {
+.search-bar--index {
     width: 100%;
     margin: 0 1;
+    color: #fff;
     padding: .5rem 0;
     background-color: #000;
     border: 1px solid #fff;
     border-bottom: none;
 }
 
-.search-bar::placeholder {
+.search-bar--index::placeholder {
     color: #fff;
     padding-left: 2rem;
 }
