@@ -73,12 +73,17 @@ html {
 }
 
 body {
+    display: grid;
+    place-items: center;
     margin: 0 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
     /* overflow-x: hidden; */
+    background-image: url(/assets/img/bg-body.svg);
+    background-position: center center;
+    background-size: contain;
 }
 
 h1, h2, h3, h4 {
@@ -87,9 +92,15 @@ h1, h2, h3, h4 {
 }
 
 
-/* main {
-    padding: .5rem;
-} */
+main {
+    background-color: #000;
+    max-width: 520px;
+}
+
+
+@media screen() {
+    
+}
 
 ul {
     list-style: none;
@@ -335,18 +346,6 @@ img {
     margin-top: 2rem;
     border: solid 1px #7600BC;
     border-radius: 8px;
-    /* background: radial-gradient(circle at 100% 100%, #000000 0, #000000 7px, transparent 7px) 0% 0%/8px 8px no-repeat,
-            radial-gradient(circle at 0 100%, #000000 0, #000000 7px, transparent 7px) 100% 0%/8px 8px no-repeat,
-            radial-gradient(circle at 100% 0, #000000 0, #000000 7px, transparent 7px) 0% 100%/8px 8px no-repeat,
-            radial-gradient(circle at 0 0, #000000 0, #000000 7px, transparent 7px) 100% 100%/8px 8px no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 16px) no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 16px) calc(100% - 2px) no-repeat,
-            radial-gradient(at 100% 100%, #e8533a 0%, transparent 70%),
-            radial-gradient(at 100% 0%, #E83A91 0%, transparent 70%),
-            radial-gradient(at 0% 0%, #ff40ff 0%, transparent 70%),
-            #FF4D4D;
-    padding: 1px;
-    box-sizing: border-box; */
     box-sizing: border-box;
     max-width: 300px;
     height: auto;
