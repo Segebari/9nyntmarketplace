@@ -86,6 +86,11 @@ h1, h2, h3, h4 {
     font-weight: var(--font-semi-bold);
 }
 
+
+/* main {
+    padding: .5rem;
+} */
+
 ul {
     list-style: none;
 }
@@ -237,11 +242,39 @@ img {
     font-size: x-small !important;
 }
 
+.search {
+    margin-top: 1rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.search-icon {
+    left: 1.5rem;
+    color: #fff;
+    position: absolute;
+    
+}
+
+.search-bar {
+    width: 100%;
+    margin: 0 1;
+    padding: .5rem 0;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-bottom: none;
+}
+
+.search-bar::placeholder {
+    color: #fff;
+    padding-left: 2rem;
+}
 
 
 .listings {
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 0;
     width: 90%;
     display: flex;
     height: 2.1rem;
