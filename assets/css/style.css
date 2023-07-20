@@ -221,12 +221,13 @@ img {
 
 .sub-menu {
     display: flex;
+    padding-left: .5rem;
 
 }
 
 .sub-menu h3 {
     font-weight: var(--font-light);
-    padding-left: 1rem;
+    padding-left: .5rem;
     font-size: var(--normal-font-size);
     text-transform: uppercase;
 }
