@@ -116,6 +116,7 @@ img {
 }
 
 .top {
+    /* position: relative; */
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -152,7 +153,8 @@ img {
 
 .logo   {
     position: absolute;
-    left: 3rem;
+    left: 3.2rem;
+    padding-top: .2rem;
 }
 
 .nav-icon--size {
