@@ -231,6 +231,11 @@ img {
     text-transform: uppercase;
 }
 
+.sm-text {
+    letter-spacing: .07rem;
+    font-size: smaller !important;
+}
+
 
 
 .listings {
