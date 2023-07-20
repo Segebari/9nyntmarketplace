@@ -333,13 +333,24 @@ img {
 
 .products-item {
     margin-top: 2rem;
-    background-image: url(/assets/img/gradient-border.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    border: solid 1px #7600BC;
+    border-radius: 8px;
+    /* background: radial-gradient(circle at 100% 100%, #000000 0, #000000 7px, transparent 7px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #000000 0, #000000 7px, transparent 7px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #000000 0, #000000 7px, transparent 7px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #000000 0, #000000 7px, transparent 7px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 16px) no-repeat,
+            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 16px) calc(100% - 2px) no-repeat,
+            radial-gradient(at 100% 100%, #e8533a 0%, transparent 70%),
+            radial-gradient(at 100% 0%, #E83A91 0%, transparent 70%),
+            radial-gradient(at 0% 0%, #ff40ff 0%, transparent 70%),
+            #FF4D4D;
+    padding: 1px;
+    box-sizing: border-box; */
+    box-sizing: border-box;
     width: 100%;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -347,10 +358,10 @@ img {
 
 .products-img {
     position: relative;
-    max-height: 150px;
+    max-height: 180px;
     width: auto;
-    top: 2rem;
-    right: -6rem;
+    margin-top: 1rem;
+    right: -5rem;
     margin-bottom: 2rem;
 }
 
