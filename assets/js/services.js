@@ -31,7 +31,7 @@ jobsButton.addEventListener("click", function(event) {
     hireButton.style.borderBottom = "none"; // Adjust the border
     jobsButton.style.borderBottom = "1px solid #fff"; // Adjust the border
     jobsiconDisplay.style.display = "block"; // Display post jobs icon
-    searchiconPadding.style.paddingRight = "2.5rem" // Adjust search icon
+    searchiconPadding.style.paddingRight = "2.2rem"; // Adjust search icon
 })
 
 hireButton.addEventListener("click", function(event) {
@@ -43,6 +43,9 @@ hireButton.addEventListener("click", function(event) {
     hireButton.style.borderBottom = "1px solid #fff"; // Adjust the border
     jobsButton.style.borderBottom = "none"; // Adjust the border
     jobsiconDisplay.style.display = "none"; // Display none
-    searchiconPadding.style.paddingRight = "1rem" // Adjust search icon
+    searchiconPadding.style.paddingRight = "1rem"; // Adjust search icon
 })
+
+
+
 

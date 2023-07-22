@@ -48,9 +48,12 @@
     position: absolute !important;
     color: #fff !important;
     right: 0 !important;
-    padding-right: 1rem !important;
+    padding-right: 1rem;
 }
 
+.post-job--icon {
+    font-size: 1.1rem !important;
+}
 
 .search {
     position: relative !important;
@@ -84,7 +87,7 @@
 .search-bar::placeholder {
     color: #fff !important;
     position: relative !important;
-    padding-left: 3rem !important;
+    padding-left: 1rem !important;
 }
 
 .search-bar:focus {
@@ -97,6 +100,7 @@
     position: relative;
     color: #8E8E8E;
     top: -1.8rem;
+    font-size: x-small;
 }
 
 
@@ -205,6 +209,7 @@
 
 
 .freelance-btn {
+    font-size: x-small;
     background-color: black;
     color: #fff;
     border: none;
@@ -214,6 +219,7 @@
 }
 
 .fulltime-btn {
+    font-size: x-small;
     color: #8E8E8E;
     background-color: black;
     border: none;
@@ -221,17 +227,18 @@
 }
 
 .result__no--small {
-    font-size: small;
+    font-size: x-small;
     color: #8E8E8E;
 }
 
 
 .result__text--small {
-    font-size: small;
+    font-size: x-small;
     color: #8E8E8E;
 }
 
 .result-wrap {
+    
     padding-top: .4rem;
 }
 
@@ -253,17 +260,19 @@
 
 .company-name {
     color: #000;
-    font-size: large;
+    font-size: normal;
 }
 
 
 .job-role {
-    font-size: smaller;
+    font-size: x-small;
 }
 
 
 .job-location {
-    font-size: smaller;
+    position: relative;
+    left: -.4rem;
+    font-size: xx-small;
 }
 
 
@@ -273,19 +282,19 @@
 
 .job-subtext {
     padding-top: .5rem;
-    font-size: .65rem;
+    font-size: xx-small;
 }
 
 
 .address-icon {
-    font-size: .9rem;
+    font-size: x-small !important;
     padding-left: 0.5rem !important;
     padding-right: 0.1rem !important;
 }
 
 
 .icon-size--small {
-    font-size: 1rem !important;
+    font-size: x-small !important;
 }
 
 
@@ -308,6 +317,7 @@ padding: .5rem !important;
 }
 
 .job-post--img  {
+    align-self: flex-start;
     position: relative;
     margin-top: .5rem;
 }
