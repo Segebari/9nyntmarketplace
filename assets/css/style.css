@@ -260,6 +260,17 @@ img {
     padding: 0 1rem;
 }
 
+/* padding-right: 1.08rem; px 1280 
+
+padding-right: 1.1rem; 800 - 1000ish */
+
+@media screen and (min-width: 321px) and (max-width: 2000px) {
+    .search--index {
+        padding-right: 1.09rem;
+    }
+  }
+
+
 .search-icon--index {
     left: 1.5rem;
     color: #fff;
