@@ -122,11 +122,12 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .user-name {
     color: black;
+    font-size: smaller;
 }
 /* 
 .banner, .porfolio-text {
@@ -145,18 +146,24 @@
 }
 
 .user-skills {
-    font-size: smaller;
+    font-size: xx-small;
 }
 
 .user-location {
     margin: auto;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.2rem !important;
 }
 
 .location-text {
     color: black;
-    font-size: smaller;
+    font-size: xx-small;
+}
+
+.location-icon {
+    font-size: x-small;
+    position: relative;
+    top: 0.02rem;
 }
 
 .user-location-wrap {

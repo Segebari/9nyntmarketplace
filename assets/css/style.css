@@ -719,6 +719,7 @@ img {
     font-size: var(--smaller-font-size);
     padding: .4rem 0rem;
     background-color: #4f4f4f;
+    width: 100%;
 }
 
 
