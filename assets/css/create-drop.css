@@ -1,9 +1,39 @@
 .create-drop {
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.create-drop h2 {
+  padding-bottom: 2rem;
+}
+
+form input {
+  padding: .2rem;
+  color: #000;
+  width: 7rem;
+}
+
+form input::placeholder {
+  color: #000;
+}
+
+/* Style for the custom dropdown icon */
+
+.custom-dropdown {
+  /* Set the color of the caret to transparent to hide it */
+  caret-color: #fff !important;
+}
+
+
+.down-arrow {
+    color: #000 !important;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
 
 .drop-type {
@@ -121,7 +151,7 @@
         background-color: black;
         color: white;
         border: white solid 1px;
-        padding: .5rem 1rem;
+        padding: .5rem 0rem;
     }
 
     .drop-btns {

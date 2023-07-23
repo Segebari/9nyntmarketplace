@@ -72,22 +72,8 @@
         
         
         
-        <main class="">
-            <section class="">
-                <h1 class="market">DROPS</h1>
-                <div class="sub-menu">
-                    <h3>Overview</h3>
-                </div>
-    
-                <!-- Search bar -->
-    
-                <div class="search">
-                    <i class="uil uil-search search-icon"></i>
-                    <input class="search-bar" type="text" placeholder="Search">
-                    <i class="uil uil-book-alt book-icon"></i>
-                </div>
-                
-            </section>
+        <main>
+            
 
             <!-- Product Drops -->
     
@@ -98,7 +84,12 @@
                     <h3>Drop type</h3>
 
                         <form action="/action_page.php">
-                            <input list="browsers">
+
+                            <div style="position: relative;">
+                                <input class="custom-dropdown" placeholder="Flash sales" list="browsers">
+                                <!-- The icon from the icon site -->
+                                <i class="uil uil-angle-down down-arrow"></i>
+                            </div>
                             <datalist id="browsers">
                                 <option value="Internet Explorer">
                                 <option value="Firefox">
@@ -106,6 +97,7 @@
                                 <option value="Opera">
                                 <option value="Safari">
                             </datalist>
+                            
                         </form>
                 </div>
 
