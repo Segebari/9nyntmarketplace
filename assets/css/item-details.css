@@ -193,14 +193,30 @@
     border-bottom: solid #fff 1px;
 }
 
-.profile-items {
-    position: relative;
-    top: 2rem;
+.review-wrap {
+    margin-bottom: 1rem;
 }
 
 .profile-details-img {
     align-self: start;
 }
+
+
+.more-btn--wrap {
+    
+        text-align: right;
+    
+}
+
+
+.more-btn {
+    font-size: x-small;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+
 
 .review-subtext {
     text-align: justify;
@@ -212,8 +228,25 @@
     padding-bottom: 1rem;
 }
 
-.related-img {
+/* .related-img {
     min-height: 250px;
     width: 100%;
     object-fit: cover;
+} */
+
+
+.related-products h1 {
+    font-size: 1rem;
+}
+
+.related-products--item {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+    border: solid 1px #7600BC;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 300px;
+    height: auto;
+    padding: 2rem 1rem;
 }

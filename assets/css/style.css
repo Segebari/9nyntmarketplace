@@ -95,6 +95,7 @@ h1, h2, h3, h4 {
 main {
     background-color: #000;
     max-width: 520px;
+    position: relative;
 }
 
 
