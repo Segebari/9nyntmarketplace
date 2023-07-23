@@ -60,7 +60,7 @@
 
 .products-subtext {
     padding-top: 1rem;
-    color: #505050;
+    color: #ffffffa1;
     font-size: x-small;
 }
 .products-details {
@@ -181,11 +181,30 @@
     top: 1rem;
     display: flex;
     gap: 1rem;
+    font-size: smaller;
+    margin-bottom: 2rem;
+}
+
+.about-title {
+    color: #8B96A5;
+}
+
+.review-title {
+    border-bottom: solid #fff 1px;
 }
 
 .profile-items {
     position: relative;
     top: 2rem;
+}
+
+.profile-details-img {
+    align-self: start;
+}
+
+.review-subtext {
+    text-align: justify;
+    font-size: x-small;
 }
 
 .related-products{
