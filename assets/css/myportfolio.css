@@ -211,7 +211,7 @@
 .myportfolio--review__more {
     display: flex;
     justify-content: right;
-    font-size: smaller;
+    font-size: x-small;
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
@@ -220,3 +220,18 @@
     display: none;
 }
 
+
+.myportfolio--review__container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.myportfolio--review__container p {
+    font-size: x-small;
+}
+
+.profile-items {
+    align-self: flex-start;
+}
