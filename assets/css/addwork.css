@@ -1,6 +1,7 @@
 .addwork--main {
     height: 100%;
     padding: 1rem;
+    width: 100%;
 }
 
 .addwork--header {
@@ -59,4 +60,8 @@
     color: white;
     padding: .8rem .5rem;
     border: #fff 1px solid;
+}
+
+.advanced--header {
+    margin-bottom: 2rem;
 }
