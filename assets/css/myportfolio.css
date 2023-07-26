@@ -115,7 +115,7 @@
 }
 
 .myportfolio--info-details {
-    font-size: x-small;
+    font-size: clamp(.64rem, 0.5vw, 1rem);
 }
 
 .myportfolio--info-details ul {
