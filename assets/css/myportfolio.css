@@ -96,13 +96,18 @@
 
 .myportfolio--sections h3 {
     font-size: smaller;
-    padding-right: 1rem;
+    margin-right: 1rem;
     font-weight: 400;
+}
+
+#info--btn {
+    padding-bottom: .1rem;
+    border-bottom: #7600BC solid 4px;
 }
 
 .myportfolio--info {
     margin-bottom: 3rem;
-    display: none;
+    display: block;
 }
 
 .myportfolio--info h4 {
@@ -133,9 +138,9 @@
 
 /* Work  */
 
-/* .myportfolio--work {
+.myportfolio--work {
     display: none;
-} */
+}
 
 
 .myportfolio--work__container img {
