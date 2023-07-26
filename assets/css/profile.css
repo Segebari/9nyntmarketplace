@@ -51,7 +51,7 @@
 .bio {
     margin-top: 1rem;
     display: flex;
-    font-size: clamp(.64rem, 0.5vw, .8rem);
+    font-size: clamp(.64rem, 0.5vw, 1rem);
     gap: .5rem;
 }
 
