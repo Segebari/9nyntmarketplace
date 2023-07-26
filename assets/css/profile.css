@@ -22,6 +22,7 @@
 
 .profile-img-details {
     display: flex;
+    gap: .5rem;
 }
 
 .profile-img {
