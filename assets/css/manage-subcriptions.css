@@ -1,3 +1,5 @@
+
+
 .flex {
     display: flex;
     align-items: center;
@@ -5,8 +7,9 @@
 
 .subscription-main {
     height: auto;
-    padding: 1.3rem;
-    padding-bottom: 7rem;
+    padding: .5rem;
+    padding-top: 2rem;
+    max-width: 520px;
 }
 
 .store-header {
@@ -20,17 +23,52 @@
 }
 
 .price--container {
+    display: grid;
+    place-items: center;
     color: black;
     text-align: center;
     background-color: #fff;
     border-radius: 9px;
     margin-top: 2rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+    width: clamp(320px, 90vw, 520px); /* Adjust the values as needed */
+    padding: 1vw; /* Adjust the padding as needed */
+  
+}
+
+/* @media (min-width: 390px) {
+    .price--container {
+        padding: 1rem 2.9rem;
+    }
+}
+
+
+@media (min-width: 440px) {
+    .price--container {
+        padding: 1rem 4rem;
+    }
+}
+
+@media (min-width: 470px) {
+    .price--container {
+        padding: 1rem 4.5rem;
+    }
+}
+
+@media (min-width: 520px) {
+    .price--container {
+       width: 520px;
+    }
+} */
+
+.details-wrap {
+    margin-top: 1rem;
 }
 
 .sub-time {
     color:  #979191;
 }
+
 
 .sub-amount {
     font-weight: 800;
