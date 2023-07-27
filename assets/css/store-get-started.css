@@ -113,6 +113,16 @@
   padding: 10px;
 }
 
+.create-btn {
+  margin-top: 2rem;
+  padding: .8rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  color: #fff;
+  background: #7600BC;
+  border: none;
+}
+
   
   
   

@@ -1,3 +1,4 @@
+
 .showcase-main {
    min-height: 100vh;
    padding: 1rem;
@@ -8,6 +9,10 @@
     display: flex;
     justify-content: space-between;
     color: black;
+}
+
+section {
+  width: 320px;
 }
 
 .header-title {
@@ -30,7 +35,7 @@
   
   .carousel-images {
     display: flex;
-    width: 300%;
+    width: 320px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -70,28 +75,33 @@
     background-color: #fff;
   }
 
-.products--container {
-  width: auto;
-  overflow-x: scroll !important;
-  white-space: nowrap;
+
+  
+
+  .products-wrapper {
+    overflow-x: auto;
+    max-width: 100%; /* Adjust this value as needed */
 }
 
-.products--sub-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+.products--container {
+  padding: 1rem;
+  min-width: auto; /* Set to a suitable value based on your content */
+  white-space: nowrap;
+  display: inline-block;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for webkit-based browsers */
+.products--container::-webkit-scrollbar {
+  display: none;
 }
 
 .products--sub-container {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    padding: 1rem 1rem;
     display: flex;
     gap: 1rem;
     scroll-behavior: smooth;
-    width: auto;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin-top: 2rem;
-    
 }
 
 
