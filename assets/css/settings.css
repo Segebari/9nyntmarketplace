@@ -12,12 +12,15 @@
 }
 
 .profile-icons {
+    font-size: 1.3rem;
     padding-right: 1rem;
+    /* padding-left: 2rem; */
 }
 
 
 
 .settings-border {
+    padding: .5rem;
     border: solid white 1px;
     margin-bottom: 1rem;
 }
@@ -49,6 +52,8 @@
     color: #B0B0B0;
 }
 
+
+
 .side-title-notification {
     position: relative;
     text-align: right;
@@ -72,3 +77,14 @@
     font-size: small;
     color: #B0B0B0;
 }
+
+.settings__tab h3 {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 350px) {
+    .settings__tab h3 {
+        font-size: 1rem;
+      }
+}
+    
