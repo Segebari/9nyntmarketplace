@@ -1,5 +1,5 @@
 .main {
-    padding: 1rem;
+    padding: .5rem;
     width: clamp(320px, 90vw, 520px);
 }
 
