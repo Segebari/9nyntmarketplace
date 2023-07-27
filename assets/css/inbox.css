@@ -2,6 +2,13 @@ main {
     height: auto !important;
 }
 
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 .inbox-container {
     border: solid 1px white;
     padding: 1rem;
