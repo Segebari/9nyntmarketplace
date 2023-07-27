@@ -10,6 +10,7 @@
     padding: .5rem;
     padding-top: 2rem;
     max-width: 520px;
+    padding-bottom: 2rem;
 }
 
 .store-header {
@@ -30,9 +31,12 @@
     background-color: #fff;
     border-radius: 9px;
     margin-top: 2rem;
+    
     /* padding: 1rem; */
     width: clamp(320px, 90vw, 520px); /* Adjust the values as needed */
     padding: 1vw; /* Adjust the padding as needed */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   
 }
 
