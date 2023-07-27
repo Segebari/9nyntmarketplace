@@ -246,7 +246,7 @@
     margin-top: 1.5rem;
     padding: .5rem;
     border: #fff 1px solid;
-    width: 360px;
+    max-width: 360px;
 }
 
 
