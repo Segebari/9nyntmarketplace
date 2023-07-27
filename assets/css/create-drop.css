@@ -1,3 +1,8 @@
+main {
+  min-height: 50rem;
+}
+
+
 .create-drop {
     height: 100vh;
     padding-top: 2rem;
@@ -160,3 +165,7 @@ form input::placeholder {
         display: flex;
         justify-content: space-between;
     }
+
+#select-opt {
+  padding: 2px;
+}
