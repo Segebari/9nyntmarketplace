@@ -3,6 +3,8 @@
    min-height: 100vh;
    padding: 1rem;
    background-color: #fff;
+   width: clamp(320px, 90vw, 520px);
+   margin: 0 auto; /* Center the main element on the page */
 }
 
 .showcase-top {
