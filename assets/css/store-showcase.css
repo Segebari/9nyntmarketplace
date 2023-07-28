@@ -3,7 +3,7 @@
    min-height: 100vh;
    padding: 1rem;
    background-color: #fff;
-   width: clamp(320px, 90vw, 520px);
+   width: clamp(320px, 100vw, 520px);
    margin: 0 auto; /* Center the main element on the page */
 }
 
@@ -26,70 +26,18 @@ section {
 }
 
 
-/* carousel */
-
-.carousel {
-    position: relative;
-    width: 360px; /* Adjust the width as needed */
-    height: 320px; /* Adjust the height as needed */
-    overflow: hidden;
-  }
-  
-  .carousel-images {
-    display: flex;
-    width: 320px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .carousel-images img {
-    width: 33.33%;
-    object-fit: cover;
-  }
-  
-  .carousel-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .carousel-pagination label {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #000;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .carousel-pagination label:hover {
-    background-color: #555;
-  }
-  
-  .carousel-pagination input[type="radio"] {
-    display: none;
-  }
-  
-  .carousel-pagination input[type="radio"]:checked + label {
-    background-color: #fff;
-  }
-
-
   
 
-  .products-wrapper {
+.products-wrapper {
     overflow-x: auto;
     max-width: 100%; /* Adjust this value as needed */
 }
 
 .products--container {
-  padding: 1rem;
+  padding: 1rem 0;
   min-width: auto; /* Set to a suitable value based on your content */
   white-space: nowrap;
-  display: inline-block;
+  /* display: inline-block; */
   overflow-x: auto; /* Enable horizontal scrolling */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer and Edge */
@@ -104,6 +52,7 @@ section {
     display: flex;
     gap: 1rem;
     scroll-behavior: smooth;
+    /* margin-bottom: 1rem; */
 }
 
 

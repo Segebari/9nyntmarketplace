@@ -100,7 +100,7 @@ main {
 
 
 .main--index {
-    width: clamp(320px, 70vw, 486px) !important;
+    width: clamp(320px, 100vw, 486px) !important;
     padding: 0 .5rem;
 }
 
@@ -206,6 +206,17 @@ img {
     height: auto;
 }
 
+
+.menu-wrap {
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 560px) {
+    .menu-wrap {
+        padding-left: 0rem;
+    }
+  }
+
 .market-menu {
     position: relative;
     top: 3rem;
@@ -239,12 +250,12 @@ img {
 /* market */
 
 .market {
-    padding: 1rem 0 0 .7rem;
+    padding: 1rem 0 0 .4rem;
 }
 
 .sub-menu {
     display: flex;
-    padding-left: .2rem;
+    padding-left: 0rem;
 
 }
 
@@ -262,8 +273,6 @@ img {
 
 .search--index  {
     margin-top: 1rem;
-    display: grid;
-    place-items: center;
     position: relative;
     margin-left: .5rem;
     /* padding: 0 1rem; */
@@ -288,7 +297,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 .search-bar--index {
-    width: clamp(290px, 70vw, 486px);
+    width: clamp(290px, 76vw, 486px);
     /* width: 486px; */
     margin: 0 1;
     color: #fff;
@@ -299,10 +308,11 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 
+
 @media screen and (min-width: 321px) and (max-width: 2000px) {
-    .search--index {
+    /* .search--index {
         padding-right: 1.09rem;
-    }
+    } */
 }
 
 
@@ -310,7 +320,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 .filter--index {
     position: relative;
     left: .5rem;
-    width: clamp(290px, 70vw, 486px);
+    width: clamp(290px, 76vw, 486px);
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
@@ -348,7 +358,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 .clear {
-    padding-left: 1rem;
+    padding-left: .5rem;
     padding-top: .5rem;
     font-size: var(--small-font-size);
 }
@@ -361,7 +371,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 .products {
     padding: 0 1rem;
-    width: clamp(300px, 70vw, 520px);
+    width: clamp(300px, 90vw, 520px);
     height: auto;
     display: flex;
     align-items: center;
