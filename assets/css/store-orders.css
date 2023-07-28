@@ -37,12 +37,49 @@
 .data-wrap {
     gap: 1rem;
     justify-content: space-between;
+    margin-top: .5rem;
 }
 
 .flex-item {
     flex-basis: 0;
     flex-grow: 1;
 }
+
+
+
+@media (max-width: 360px) {
+    .data-title {
+        font-size: x-small;
+    }
+
+    .data-subtext {
+        font-size: x-small;
+    }
+}
+
+
+
+@media (min-width: 361px) {
+    .data-title {
+        font-size: smaller;
+    }
+
+    .data-subtext {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 381px) {
+    .data-title {
+        font-size: 1rem;
+    }
+
+    .data-subtext {
+        font-size: 1rem;
+    }
+}
+
+
 
 .data-subtext {
     color: #8E8E8E;
