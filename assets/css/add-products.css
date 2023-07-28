@@ -1,6 +1,7 @@
 .add-products--main {
     min-height: 100vh;
     padding: 1rem;
+    width: clamp(320px, 100vw, 520px) !important;
 }
 
 .flex {
