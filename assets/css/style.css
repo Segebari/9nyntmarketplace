@@ -276,6 +276,8 @@ img {
     position: relative;
     margin-left: .5rem;
     /* padding: 0 1rem; */
+    display: flex;
+    align-items: center;
 }
 
 /* padding-right: 1.08rem; px 1280 
