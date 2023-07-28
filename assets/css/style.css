@@ -311,11 +311,11 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 
 
-@media screen and (min-width: 321px) and (max-width: 2000px) {
-    /* .search--index {
-        padding-right: 1.09rem;
-    } */
-}
+/* @media screen and (min-width: 617px) {
+    .search-bar--index {
+        width: clamp(290px, 76vw, 520px);
+    }
+} */
 
 
 
@@ -328,11 +328,6 @@ padding-right: 1.1rem; 800 - 1000ish */
     border: 1px solid #fff;
 }
 
-.search-bar--index::placeholder {
-    color: #fff;
-    padding-left: 2rem;
-}
-
 
 .filter {
     padding: 3px .5rem;
@@ -341,6 +336,30 @@ padding-right: 1.1rem; 800 - 1000ish */
     border-style: none solid none none;
     border-width: 1px;
 }
+
+
+
+@media screen and (min-width: 617px) {
+    .filter--index {
+        width: clamp(290px, 76vw, 462px);
+    }
+
+    .filter {
+        width: 8%;
+    }
+}
+
+
+
+
+.search-bar--index::placeholder {
+    color: #fff;
+    padding-left: 2rem;
+}
+
+
+
+
 
 .newlist {
     padding-left: .5rem;
