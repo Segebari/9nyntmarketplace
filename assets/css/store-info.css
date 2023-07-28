@@ -1,6 +1,7 @@
 .main {
     padding: 1rem !important;
     min-height: 100vh;
+    width: clamp(320px, 100vw, 520px) !important;
 }
 
 .flex {

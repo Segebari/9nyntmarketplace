@@ -1,3 +1,10 @@
+.store-settings--main {
+    width: clamp(320px, 100vw, 520px) !important;
+}
+
+
+
+
 .flex {
     display: flex;
     align-items: center;
