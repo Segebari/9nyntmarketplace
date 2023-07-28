@@ -1,7 +1,7 @@
 .main {
     padding: 1rem;
     min-height: 100vh;
-    width: clamp(320px, 90vw, 520px);
+    width: clamp(320px, 100vw, 520px);
     margin: 0 auto; /* Center the main element on the page */
 }
 
@@ -56,13 +56,19 @@
 
 .search--icon {
     position: relative;
-    left: -1.5rem;
+    left: -1.8rem;
 }
 
 .search-input {
-    padding: 0.3rem;
+    width: 10rem;
+    padding: 0.4rem;
     background-color: black;
     border: none;
+    flex-grow: 2;
+}
+
+.orders-title {    
+    font-size: smaller;
 }
 
 .order-status--container {
@@ -82,7 +88,7 @@
 }
 
 .order-status--container p {
-    font-size: smaller;
+    font-size: x-small;
     color: #B0B0B0;
 }
 
