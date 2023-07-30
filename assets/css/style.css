@@ -214,7 +214,7 @@ img {
 @media screen and (max-width: 559px) {
 
     .menu-wrap {
-        padding-left: 0rem;
+        padding-left: .5rem;
     }
 
     
