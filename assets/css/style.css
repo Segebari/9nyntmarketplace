@@ -100,7 +100,7 @@ main {
 
 
 .main--index {
-    width: clamp(320px, 100vw, 486px) !important;
+    width: clamp(320px, 100vw, 520px);
     padding: 0 .5rem;
 }
 
@@ -299,7 +299,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 .search-bar--index {
-    width: clamp(290px, 76vw, 486px);
+    width: clamp(290px, 85vw, 486px);
     /* width: 486px; */
     margin: 0 1;
     color: #fff;
@@ -322,7 +322,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 .filter--index {
     position: relative;
     left: .5rem;
-    width: clamp(290px, 76vw, 486px);
+    width: clamp(290px, 85vw, 486px);
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
@@ -331,7 +331,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 .filter {
     padding: 3px .5rem;
-    width: 11%;
+    width: 8%;
     height: 2rem;
     border-style: none solid none none;
     border-width: 1px;
@@ -340,6 +340,12 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 
 @media screen and (min-width: 617px) {
+
+    .search-bar--index {
+        width: clamp(290px, 76vw, 462px);
+    }
+
+
     .filter--index {
         width: clamp(290px, 76vw, 462px);
     }
@@ -350,6 +356,58 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 
+@media screen and (max-width: 585px) and (min-width: 525px) {
+
+    .search-bar--index {
+        width: clamp(280px, 85vw, 600px);
+    }
+
+    .filter--index {
+        width: clamp(280px, 85vw, 600px);
+    }
+
+    .filter {
+        width: 7.5%;
+    }
+
+}
+
+
+@media screen and (max-width: 616px) and (min-width: 585.5px) {
+
+    .search-bar--index {
+        width: clamp(280px, 85vw, 600px);
+    }
+
+    .filter--index {
+        width: clamp(280px, 85vw, 496px);
+    }
+
+    .filter {
+        width: 7.5%;
+    }
+}
+
+
+
+@media screen and (max-width: 327px) {
+
+    .search-bar--index {
+        width: clamp(280px, 76vw, 486px);
+    }
+
+    .filter--index {
+        width: clamp(280px, 76vw, 462px);
+    }
+
+    .filter {
+        width: 11%;
+    }
+
+    .menu-wrap {
+        padding-left: .5rem;
+    }
+}
 
 
 .search-bar--index::placeholder {
@@ -404,9 +462,11 @@ padding-right: 1.1rem; 800 - 1000ish */
     border: solid 1px #7600BC;
     border-radius: 8px;
     box-sizing: border-box;
-    max-width: 300px;
+    width: clamp(250px, 85vw, 330px);
     height: auto;
     padding-bottom: 1rem;
+    display: grid;
+    align-items: center;
 }
 
 
