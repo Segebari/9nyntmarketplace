@@ -347,6 +347,13 @@ padding-right: 1.1rem; 800 - 1000ish */
 }
 
 
+@media screen and (min-width: 340px) and (max-width: 370px) {
+    .filter {
+        width: 11%;
+    }
+  }
+
+
 
 
 
