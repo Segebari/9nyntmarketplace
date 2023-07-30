@@ -211,6 +211,15 @@ img {
     padding-left: 1rem;
 }
 
+@media screen and (max-width: 559px) {
+
+    .menu-wrap {
+        padding-left: 0rem;
+    }
+
+    
+}
+
 @media screen and (min-width: 560px) {
     .menu-wrap {
         padding-left: 0rem;
@@ -339,6 +348,11 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 
 
+
+
+
+
+
 @media screen and (min-width: 617px) {
 
     .search-bar--index {
@@ -402,10 +416,6 @@ padding-right: 1.1rem; 800 - 1000ish */
 
     .filter {
         width: 11%;
-    }
-
-    .menu-wrap {
-        padding-left: .5rem;
     }
 }
 
