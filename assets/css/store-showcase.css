@@ -5,11 +5,12 @@
    background-color: #fff;
    width: clamp(320px, 100vw, 520px);
    margin: 0 auto; /* Center the main element on the page */
-}
+   overflow-x: hidden;
+  }
 
 .showcase-top {
     display: flex;
-    justify-content: space-between;
+    gap: 6rem;
     color: black;
 }
 
@@ -30,12 +31,12 @@ section {
 
 .products-wrapper {
     overflow-x: auto;
-    max-width: 100%; /* Adjust this value as needed */
+    width: clamp(320px, 100vw, 520px);
 }
 
 .products--container {
   padding: 1rem 0;
-  min-width: auto; /* Set to a suitable value based on your content */
+  width: clamp(320px, 100vw, 520px);
   white-space: nowrap;
   /* display: inline-block; */
   overflow-x: auto; /* Enable horizontal scrolling */
@@ -49,9 +50,12 @@ section {
 }
 
 .products--sub-container {
+    padding-top: 1rem;
+    padding-left: .5rem;
     display: flex;
     gap: 1rem;
     scroll-behavior: smooth;
+    width: clamp(320px, 100vw, 520px);
     /* margin-bottom: 1rem; */
 }
 
@@ -65,7 +69,10 @@ section {
     background-image: url(/assets/img/iphone-store-main.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
+
+  
   
 
 
