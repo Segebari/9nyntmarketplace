@@ -25,3 +25,36 @@ productsScroll.addEventListener('mousemove', (e) => {
   const walk = (x - startX) * 2; // Adjust scroll speed if needed
   productsScroll.scrollLeft = scrollLeft - walk;
 });
+
+
+
+const carousel = document.querySelector(".carousel");
+const dots = document.querySelectorAll(".dot");
+
+let slideIndex = 0;
+
+function showSlide(n) {
+  slideIndex = n;
+  if (slideIndex >= dots.length) {
+    slideIndex = 0;
+  } else if (slideIndex < 0) {
+    slideIndex = dots.length - 1;
+  }
+  
+  carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+  dots.forEach(dot => dot.classList.remove("active"));
+  dots[slideIndex].classList.add("active");
+}
+
+function plusSlide(n) {
+  showSlide(slideIndex + n);
+}
+
+dots.forEach((dot, index) => {
+  dot.addEventListener("click", () => showSlide(index));
+});
+
+setInterval(() => plusSlide(1), 3000); // Auto advance every 3 seconds
+
+showSlide(slideIndex);
