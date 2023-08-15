@@ -28,39 +28,17 @@ section {
 
 
   
-
-.products-wrapper {
-    overflow-x: auto;
-    width: clamp(320px, 100vw, 520px);
+.products-scroll {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 1rem;
 }
 
-.products--container {
-  padding: 1rem 0;
-  width: clamp(320px, 100vw, 520px);
-  white-space: nowrap;
-  /* display: inline-block; */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Edge */
-}
 
-/* Hide scrollbar for webkit-based browsers */
-.products--container::-webkit-scrollbar {
-  display: none;
-}
-
-.products--sub-container {
-    padding-top: 1rem;
-    padding-left: .5rem;
-    display: flex;
-    gap: 1rem;
-    scroll-behavior: smooth;
-    width: clamp(320px, 100vw, 520px);
-    /* margin-bottom: 1rem; */
-}
 
 
   .product--showcase {
+    margin-right: 1rem;
     flex: 0 0 auto;
     box-shadow: 0px 0px 13px -8px rgba(0,0,0,1);
     border-radius: 10px;
