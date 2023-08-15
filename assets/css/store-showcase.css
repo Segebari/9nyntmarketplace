@@ -34,9 +34,29 @@ section {
   display: grid;
   grid-auto-flow: column;
   margin-top: 1rem;
-  overflow: auto;
   padding: 1rem;
+  overflow-x: auto; /* Hide the scrollbar */
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  cursor: grab; /* Set cursor to "grab" when hovering over the container */
+  }
+
+.products-scroll::-webkit-scrollbar {
+   display: none;
 }
+
+
+
+
+.products-scroll:active {
+cursor: grabbing; /* Set cursor to "grabbing" when container is clicked and dragged */
+}
+  
+  /* Set a small width to hide scrollbar space */
+
+
+
 
 
 
