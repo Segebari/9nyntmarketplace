@@ -29,9 +29,13 @@ section {
 
   
 .products-scroll {
+
+  width:  clamp(320px, 100vw, 520px);
   display: grid;
   grid-auto-flow: column;
   margin-top: 1rem;
+  overflow: auto;
+  padding: 1rem;
 }
 
 
