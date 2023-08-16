@@ -478,7 +478,7 @@ padding-right: 1.1rem; 800 - 1000ish */
 
 .products-item {
     margin-top: 2rem;
-    border: solid 1px #7600BC;
+    border: solid 2px #7700bc42;
     border-radius: 8px;
     box-sizing: border-box;
     width: clamp(250px, 85vw, 330px);

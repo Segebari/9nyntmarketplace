@@ -28,33 +28,45 @@ productsScroll.addEventListener('mousemove', (e) => {
 
 
 
-const carousel = document.querySelector(".carousel");
-const dots = document.querySelectorAll(".dot");
+const slides = document.querySelectorAll('.slide');
+const pagination = document.querySelector('.pagination');
+const dots = [];
 
-let slideIndex = 0;
+let currentSlide = 0;
 
-function showSlide(n) {
-  slideIndex = n;
-  if (slideIndex >= dots.length) {
-    slideIndex = 0;
-  } else if (slideIndex < 0) {
-    slideIndex = dots.length - 1;
+function showSlide(index) {
+  slides[currentSlide].style.opacity = 0;
+  currentSlide = index;
+  slides[currentSlide].style.opacity = 1;
+  updatePagination();
+}
+
+function createPagination() {
+  for (let i = 0; i < slides.length; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    if (i === 0) {
+      dot.classList.add('active');
+    }
+    dot.addEventListener('click', () => showSlide(i));
+    pagination.appendChild(dot);
+    dots.push(dot);
   }
-  
-  carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-
-  dots.forEach(dot => dot.classList.remove("active"));
-  dots[slideIndex].classList.add("active");
 }
 
-function plusSlide(n) {
-  showSlide(slideIndex + n);
+function updatePagination() {
+  dots.forEach((dot, index) => {
+    if (index === currentSlide) {
+      dot.classList.add('active');
+    } else {
+      dot.classList.remove('active');
+    }
+  });
 }
 
-dots.forEach((dot, index) => {
-  dot.addEventListener("click", () => showSlide(index));
-});
+createPagination();
 
-setInterval(() => plusSlide(1), 3000); // Auto advance every 3 seconds
-
-showSlide(slideIndex);
+setInterval(() => {
+  let nextSlide = (currentSlide + 1) % slides.length;
+  showSlide(nextSlide);
+}, 3000); // Change slide every 3 seconds
