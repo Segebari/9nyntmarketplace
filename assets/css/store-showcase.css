@@ -1,119 +1,119 @@
 
 .showcase-main {
-   min-height: 100vh;
-   padding: 1rem;
-   background-color: #fff;
-   width: clamp(320px, 100vw, 520px);
-   margin: 0 auto; /* Center the main element on the page */
-   overflow-x: hidden;
-  }
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+  width: clamp(320px, 100vw, 520px);
+  margin: 0 auto; /* Center the main element on the page */
+  overflow-x: hidden;
+ }
 
 .showcase-top {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    padding-right: clamp(1rem, 5vw, 5rem); 
+   display: flex;
+   justify-content: space-between;
+   color: black;
+   padding-right: clamp(1rem, 5vw, 5rem); 
 }
 
 /* section {
-  width: 320px;
+ width: 320px;
 } */
 
 
 
 
 .header-title {
-    color: black;
+   color: black;
 }
 
 .header-subtext {
-    color: #b7b7b7;
+   color: #b7b7b7;
 }
 
 
 /* carousel */
 
 .carousel--wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .carousel {
-  border-radius: .5rem;
-  border: solid 2px #7700bc42;
-  width: 320px;
-  height: 326px;
-  overflow: hidden;
-  position: relative;
-  margin: 1rem 0;
+ border-radius: .5rem;
+ border: solid 2px #7700bc42;
+ width: 320px;
+ height: 326px;
+ overflow: hidden;
+ position: relative;
+ margin: 1rem 0;
 }
 
 .slide {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+ width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-position: center;
+ position: absolute;
+ opacity: 0;
+ transition: opacity 0.5s ease-in-out;
 }
 
 .slide:nth-child(1) {
-  background-image: url('/assets/img/iphone-store-below.svg');
+ background-image: url('/assets/img/iphone-store-below.svg');
 }
 
 .slide:nth-child(2) {
-  background-image: url('/assets/img/airpods-store-below-svg.svg');
+ background-image: url('/assets/img/airpods-store-below-svg.svg');
 }
 
 .slide:nth-child(3) {
-  background-image: url('/assets/img/watch-store-below-svg.svg');
+ background-image: url('/assets/img/watch-store-below-svg.svg');
 }
 
 .pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
+ width: 10px;
+ height: 10px;
+ background-color: #ccc;
+ border-radius: 50%;
+ margin: 0 5px;
+ cursor: pointer;
 }
 
 .active {
-  background-color: #555;
+ background-color: #555;
 }
 
 .showcase-header {
-  margin-top: 2rem;
+ margin-top: 2rem;
 }
 
 
 
-  
+ 
 .products-scroll {
 
-  width:  clamp(320px, 100vw, 520px);
-  display: grid;
-  grid-auto-flow: column;
-  margin-top: 1rem;
-  padding: 1rem;
-  overflow-x: auto; /* Hide the scrollbar */
-  overscroll-behavior-inline: contain;
-  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
-  scroll-behavior: smooth; /* Smooth scrolling */
-  cursor: grab; /* Set cursor to "grab" when hovering over the container */
-  }
+ width:  clamp(320px, 100vw, 520px);
+ display: grid;
+ grid-auto-flow: column;
+ margin-top: 1rem;
+ padding: 1rem;
+ overflow-x: auto; /* Hide the scrollbar */
+ overscroll-behavior-inline: contain;
+ -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+ scroll-behavior: smooth; /* Smooth scrolling */
+ cursor: grab; /* Set cursor to "grab" when hovering over the container */
+ }
 
 .products-scroll::-webkit-scrollbar {
-   display: none;
+  display: none;
 }
 
 
@@ -122,8 +122,8 @@
 .products-scroll:active {
 cursor: grabbing; /* Set cursor to "grabbing" when container is clicked and dragged */
 }
-  
-  /* Set a small width to hide scrollbar space */
+ 
+ /* Set a small width to hide scrollbar space */
 
 
 
@@ -131,30 +131,30 @@ cursor: grabbing; /* Set cursor to "grabbing" when container is clicked and drag
 
 
 
-  .product--showcase {
-    margin-right: 1rem;
-    flex: 0 0 auto;
-    box-shadow: 0px 0px 13px -8px rgba(0,0,0,1);
-    border-radius: 10px;
-    height: 8rem;
-    width: 8rem;
-    background-image: url(/assets/img/iphone-store-main.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-  }
+ .product--showcase {
+   margin-right: 1rem;
+   flex: 0 0 auto;
+   box-shadow: 0px 0px 13px -8px rgba(0,0,0,1);
+   border-radius: 10px;
+   height: 8rem;
+   width: 8rem;
+   background-image: url(/assets/img/iphone-store-main.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+ }
 
-  
-  
+ 
+ 
 
 
-  .about-store {
-    display: flex;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: .5rem 1rem;
-    border-radius: 7px;
-    background-color: #000;
-    color: #fff;
-  }
+ .about-store {
+   display: flex;
+   margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding: .5rem 1rem;
+   border-radius: 7px;
+   background-color: #000;
+   color: #fff;
+ }
