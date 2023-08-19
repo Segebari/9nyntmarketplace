@@ -49,8 +49,6 @@ main {
 .bottom-item {
     display: flex;
     align-items: center;
-    margin-top: auto !important;
-    margin-left: .5rem;
 }
 
 .inbox-time-bullet {
