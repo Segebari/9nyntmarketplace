@@ -19,7 +19,7 @@
     position: fixed;
     z-index: 2000;
     right: 20px; /* Adjust this value as needed */
-    top: 50%; /* Keep the element vertically centered */
+    top: 90%; /* Keep the element vertically centered */
     transform: translateY(-50%); /* Center vertically using transform */
 }
 
