@@ -28,12 +28,23 @@ main {
 }
 
 .inbox {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto minmax(min-content, 1fr) auto auto auto;
+    gap: 10px;
     border: solid 1px white;
     padding: .5rem;
     align-items: center;
     margin-bottom: 1.3rem;
 }
+
+.inbox h4 {
+    font-size: smaller;
+}
+
+.inbox p {
+    font-size: xx-small;
+}
+
 
 .bottom-item {
     display: flex;
@@ -69,12 +80,18 @@ main {
 .inbox-no-container {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+}
+
+.inbox-no-bullet {
+    margin-left: 0px;
 }
 
 .inbox-no {
+    display: grid;
+    place-items: center;
+    width: 30px;
     font-size: small;
     margin-left: .5rem;
     border: solid white 1px;
-    padding: .2rem .75rem;
+    padding: .2rem 0;
 }
