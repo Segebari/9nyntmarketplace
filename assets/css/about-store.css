@@ -15,13 +15,23 @@
 } */
 
 
-.bolt {
-    position: fixed;
-    z-index: 2000;
-    right: 20px; /* Adjust this value as needed */
-    top: 90%; /* Keep the element vertically centered */
-    transform: translateY(-50%); /* Center vertically using transform */
+.about-store--top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: clamp(320px, 70vw, 450px);
+    left: 0;
 }
+
+
+.bolt {
+    position: relative;
+    z-index: 2000;
+    background-color: #ffffffe1;
+    padding: .1rem;
+    border-radius: 50%;
+}
+
 
 
 section {
