@@ -15,18 +15,27 @@
 } */
 
 
-.about-store--top {
+/* .about-store--top {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: clamp(320px, 70vw, 450px);
+    width: clamp(300px, 50vw, 450px);
     left: 0;
+} */
+
+
+
+
+
+
+.bolt-wrap {
+    position: relative;
+    z-index: 2000;
+    justify-self: end; /* Float the first grid item to the right */
 }
 
 
 .bolt {
-    position: relative;
-    z-index: 2000;
     background-color: #ffffffe1;
     padding: .1rem;
     border-radius: 50%;
